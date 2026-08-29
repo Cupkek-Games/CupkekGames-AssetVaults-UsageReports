@@ -1,0 +1,23 @@
+{
+  "name": "com.cupkekgames.assetvaults.usagereports",
+  "displayName": "CupkekGames Asset Vaults - Usage Reports",
+  "version": "0.1.0",
+  "author": {
+    "name": "CupkekGames",
+    "url": "https://www.docs.cupkek.games"
+  },
+  "unity": "6000.5",
+  "documentationUrl": "https://docs.cupkek.games/",
+  "description": "Answers the question that decides whether a folder can be vaulted: of everything in it, what does the project actually reference? Adapts yasirkula's Asset Usage Detector to the vault's reporter seam.",
+  "keywords": [
+    "Asset Vault",
+    "References",
+    "Usage",
+    "Editor",
+    "CupkekGames"
+  ],
+  "dependencies": {
+    "com.cupkekgames.assetvaults": "0.4.0",
+    "com.cupkekgames.assetusagedetector": "2.6.2"
+  }
+}

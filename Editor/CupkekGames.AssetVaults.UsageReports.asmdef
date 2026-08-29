@@ -1,0 +1,20 @@
+{
+    "name": "CupkekGames.AssetVaults.UsageReports",
+    "rootNamespace": "CupkekGames.AssetVaults.UsageReports",
+    "references": [
+        "CupkekGames.AssetVaults",
+        "CupkekGames.AssetVaults.Editor",
+        "AssetUsageDetector.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

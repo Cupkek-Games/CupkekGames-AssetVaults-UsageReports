@@ -1,0 +1,7 @@
+is_global = true
+
+# Statics cleanup: codegen emits the per-session reset, analysis makes an
+# unclassified static a compile error (UAL0010/UAL0013) so no field can be
+# silently missed. See package-dev/STATICS_LIFECYCLE_PLAN.md.
+build_property.UnityEnableAutoStaticsCleanupCodeGen = true
+build_property.UnityEnableAutoStaticsCleanupAnalysis = true

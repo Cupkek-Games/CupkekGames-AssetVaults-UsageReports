@@ -1,0 +1,21 @@
+name: Release
+
+# Tag-driven publish: packs the package and uploads tarball + sidecar JSON to
+# the GitHub Release. The Cupkek-Games/.github reusable workflow does all the
+# real work - see https://github.com/Cupkek-Games/.github for details.
+#
+# To release:
+#   1. Bump version in package.json
+#   2. Commit, tag v<version>, push tag
+#   3. Action runs, asset lands in Releases, registry route picks it up
+
+on:
+  push:
+    tags: ['v*.*.*']
+
+jobs:
+  release:
+    uses: Cupkek-Games/.github/.github/workflows/upm-release.yml@main
+    secrets: inherit
+    permissions:
+      contents: write
