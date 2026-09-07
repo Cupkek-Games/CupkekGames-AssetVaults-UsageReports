@@ -1,7 +1,7 @@
 {
   "name": "com.cupkekgames.assetvaults.usagereports",
   "displayName": "CupkekGames Asset Vaults - Usage Reports",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "CupkekGames",
     "url": "https://www.docs.cupkek.games"
@@ -17,7 +17,7 @@
     "CupkekGames"
   ],
   "dependencies": {
-    "com.cupkekgames.assetvaults": "0.4.0",
+    "com.cupkekgames.assetvaults": "0.7.0",
     "com.cupkekgames.assetusagedetector": "2.6.2"
   }
 }
